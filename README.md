@@ -1,8 +1,7 @@
 # PCF Template Installer Plugin
 
-A dedicated plugin for the **Code on the Go** mobile IDE designed to streamline the setup and installation of **Pebble Custom Functions (PCF)** templates. 
-
-This plugin allows developers to quickly create Pebble Custom Function and test the new function by providing installing two templates into Code On The Go.
+A dedicated plugin for the **Code on the Go** mobile app designed to streamline the creation, implementation, and testing of *Pebble Custom Functions* (PCF). 
+by allowing developers to quickly create Pebble Custom Function and test the new function by providing two (2) new templates in **Code On The Go**.
 
 ---
 
@@ -15,28 +14,27 @@ This plugin allows developers to quickly create Pebble Custom Function and test 
 
 ### Prerequisites
 * **Code on the Go** IDE installed on your Android device.
-* An active workspace folder.
 
 ### Steps
 1.  Open the **Code on the Go** app.
-2.  Navigate to the **Plugin Manager** in the side menu.
-3.  Select **Install from URL** or search for `PCFTemplateInstallerPlugin`.
-4.  Enter the repository URL: `https://github.com/appdevforall/PCFTemplateInstallerPlugin`
-5.  Restart the IDE to activate the plugin.
+2.  Navigate to the **Plugin Manager** in **Preferences** from the main menu.
+3.  Select **Install from URL**  using the download icon in the upper right corner of the screen
+      or search for `PCFTemplateInstallerPlugin` using the **'+'** icon in the lower right corner of the screen.
+4.  Restart the IDE to activate the plugin.
 
 ## 🚀 How to Use
-1.  Open a project where you want to implement a **Pebble Custom Function**.
-2.  Right-click (or long-press) on your desired directory.
-3.  Select **"Install PCF Template"** from the context menu.
-4.  Choose your template type (e.g., *Data Hook*, *Custom Indicator*, or *UI Logic*).
-5.  The plugin will automatically populate the folder with the necessary `.pcf` or `.js` files.
-
+After **Code On The Go** has restarted two new templates will appear on the *New Project Screen*. They are:
+1. *PCFBuilder* This template will create a project to create the jar file (*extensions.jar*) which
+   contain the executable code for one or more *Pebble Custom Functions*. Each function must be in
+   a sperate file with a class name that will be used to invoke the code from Pebble. If the *Include ExampleCode*
+   is selected then four (4) examples of Pebble Custom Functions will be included in the project. There is a tutorial for
+   Creating Pebble Custom Functions which goes into further detail on how to create a Pebble Custom Function.
+3. *PCFExample* This template will create a project which uses the example Pebble Customs created in the *PCFBuilder* project.
+   
 ## 🤝 Contributing
 We welcome contributions to expand the available PCF templates!
-1.  Fork the repository.
-2.  Add your template files to the `/templates` directory.
-3.  Update the `manifest.json` to include your new template metadata.
-4.  Submit a Pull Request for review.
+1.  *Do we wanto include this????*
+
 
 ---
 
