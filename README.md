@@ -33,8 +33,11 @@ After **Code On The Go** has restarted two new templates will appear on the *New
    
 ## 🤝 Contributing
 We welcome contributions to expand the available PCF templates!
-1.  *Do we wanto include this????*
+Please visit our website *appdevforall.org* to see how you can share your plugins with the Code On the Go community
 
+## Building
+To build this plugin in *Code On the Go*:
+1. 
 
 ---
 
